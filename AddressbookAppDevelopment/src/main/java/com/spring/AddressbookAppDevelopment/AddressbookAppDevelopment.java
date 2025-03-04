@@ -6,18 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
-public class AddressbookAppDevelopmentApplication {
+public class AddressbookAppDevelopment {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AddressbookAppDevelopmentApplication.class, args);
-	}
-
-
-	@GetMapping("/hello")
-	public String sayhello(){
-		return "hello from mousam";
+		SpringApplication.run(AddressbookAppDevelopment.class, args);
 	}
 
 	
 }
+
